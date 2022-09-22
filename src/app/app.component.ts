@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-pipes';
+  name: string = 'NeoTRAN';
+  value: number = 155463;
+
+  showName() {
+    console.log(this.name);
+  }
 }
